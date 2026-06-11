@@ -35,7 +35,7 @@ https://varshitaneyyila.github.io/PORTFOLIO/
 📫 Connect With Me
 
 * GitHub: https://github.com/varshitaneyyila
-* LinkedIn: Add your LinkedIn profile here
+* LinkedIn: https://www.linkedin.com/in/varshita-neyyila-76488437b/
 
 ---
 
