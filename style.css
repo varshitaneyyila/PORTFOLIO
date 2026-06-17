@@ -100,6 +100,7 @@ span{
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage{
     0%{
