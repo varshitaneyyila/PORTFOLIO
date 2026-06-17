@@ -95,9 +95,11 @@ span{
 .home-content{
     order: 2;
 }
-.home-img img{
- width: 25vw;
- animation: floatImage 4s ease-in-out infinite;
+.home-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 @keyframes floatImage{
     0%{
