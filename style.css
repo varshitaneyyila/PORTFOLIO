@@ -98,10 +98,10 @@ span{
 .home-img img {
     width: 250px;
     height: 250px;
-    object-fit: cover;
     border-radius: 50%;
+    object-fit: cover;
     animation: floatImage 4s ease-in-out infinite;
-    margin-left: -40px;
+    margin-left: -30px;
 }
 @keyframes floatImage{
     0%{
