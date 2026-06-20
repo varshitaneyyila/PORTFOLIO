@@ -69,10 +69,10 @@ section{
     color: var(--text-color);
     display: none;
 }
-.home{
+.home {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 6rem;
 }
 .home-content h3{
     font-size: 3.2rem;
