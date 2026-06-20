@@ -72,7 +72,7 @@ section{
 .home {
     display: flex;
     align-items: center;
-    gap: 14rem;
+    gap: 8rem;
 }
 .home-content h3{
     font-size: 3.2rem;
