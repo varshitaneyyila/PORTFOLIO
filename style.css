@@ -96,8 +96,8 @@ span{
     order: 2;
 }
 .home-img img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     animation: floatImage 4s ease-in-out infinite;
