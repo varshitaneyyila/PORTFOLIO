@@ -24,13 +24,13 @@ I'm Varshita, a Computer Science and Engineering student at NIT Calicut with int
 * CSS3
 * JavaScript
 * Font Awesome
-* GitHub Pages
+* Netlify
 
 🔗 Live Demo
 
 Visit the portfolio:
 
-https://varshitaneyyila.github.io/PORTFOLIO/
+https://varshitaneyyila.netlify.app/
 
 📫 Connect With Me
 
