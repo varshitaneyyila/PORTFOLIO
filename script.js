@@ -48,6 +48,33 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .certific
 ScrollReveal().reveal('.home-content h1, .about-content', { origin: 'left' });
 ScrollReveal().reveal('.home-content p', { origin: 'right' });
 
+const toggleBtn = document.getElementById('theme-toggle');
+const icon = document.getElementById('theme-icon');
+const root = document.documentElement;
+
+// Load saved preference, or fall back to system preference
+const savedTheme = localStorage.getItem('theme');
+const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+  root.setAttribute('data-theme', 'dark');
+  icon.textContent = '☀️';
+}
+
+toggleBtn.addEventListener('click', () => {
+  const isDark = root.getAttribute('data-theme') === 'dark';
+  
+  if (isDark) {
+    root.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+    icon.textContent = '🌙';
+  } else {
+    root.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+    icon.textContent = '☀️';
+  }
+});
+
 /*--typed js--*/
 const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Open Source Contributor', 'ML Enthusiast'],
