@@ -17,7 +17,15 @@
     --snd-bg-color:#262840;
     --text-color:#fff;
     --main-color:#59B2F4;
-    
+    --border-color:#333333;
+}
+
+[data-theme="light"]{
+    --bg-color:#ffffff;
+    --snd-bg-color:#f5f5f5;
+    --text-color:#1a1a1a;
+    --main-color:#6c63ff;
+    --border-color:#e0e0e0;
 }
 
 html{
@@ -205,7 +213,7 @@ span{
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--border-color);
     transition: .5s ease;  
     display: flex;
     flex-direction: column;  
@@ -332,7 +340,7 @@ span{
     padding: 2rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--border-color);
     transition: .5s ease;
 }
 
@@ -399,7 +407,7 @@ span{
     background: var(--snd-bg-color);
     padding: 3rem 2rem;
     border-radius: 2rem;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--border-color);
     color: var(--text-color);
     transition: .5s ease;
 }
